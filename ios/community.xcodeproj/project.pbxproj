@@ -112,7 +112,6 @@
 		D825FC4D48A742CDB536A262 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0E64F6745E4EC1BC1FFFCC /* libRNVectorIcons.a */; };
 		F11AC19206824C9AB912E74A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BFC9226B804AF6B6A52668 /* FontAwesome.ttf */; };
 		F675CF0B68F24717A3A15DB5 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25B38576019249E88EA50CBE /* SimpleLineIcons.ttf */; };
-		F7BCDBB96748909294F54FB5 /* libPods-Community.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECE48A86A4E0889289196E9 /* libPods-Community.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -355,7 +354,6 @@
 		2D02E47B1E0B4A5D006451C7 /* Community-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Community-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Community-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Community-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D07198D3C2A45B1A2406D14 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ./ios/Frameworks/FBSDKShareKit.framework; sourceTree = "<group>"; };
-		3ECE48A86A4E0889289196E9 /* libPods-Community.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Community.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4462E6B71EE7875600D9C7EA /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
 		4462E6B81EE7875600D9C7EA /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
 		4462E6B91EE7875600D9C7EA /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
@@ -504,7 +502,6 @@
 				8B4EA5409F22400F9E58AD9E /* FBSDKShareKit.framework in Frameworks */,
 				1C98B687935E473C9A05ECC8 /* FBSDKLoginKit.framework in Frameworks */,
 				D825FC4D48A742CDB536A262 /* libRNVectorIcons.a in Frameworks */,
-				F7BCDBB96748909294F54FB5 /* libPods-Community.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,7 +639,6 @@
 		1A914D802D781A484F97D188 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3ECE48A86A4E0889289196E9 /* libPods-Community.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

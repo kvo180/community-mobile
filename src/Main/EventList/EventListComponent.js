@@ -13,6 +13,7 @@ import axios from 'axios';
 import EventListOptionsBar from './EventListOptionsBar';
 import EventListHeader from './EventListHeaderComponent';
 import Drawer from './Drawer/DrawerContainer';
+import Spinner from 'react-native-loading-spinner-overlay';
 
 const baseUrl = 'https://warriors-community.herokuapp.com';
 
@@ -100,12 +101,19 @@ class EventListComponent extends Component {
       isRefreshing: false,
       loaded: 0,
       category: '',
+      isLoading: true
     };
     // this._onClick = this._onClick.bind(this);
     this._onRefresh = this._onRefresh.bind(this);
   }
 
-
+  componentWillMount() {
+    setTimeout(() => {
+      this.setState({
+        isLoading: false
+      });
+    }, 3000);
+  }
 
   render() {
     const categories = ['food', 'sports', 'outdoors', 'nightlife', 'games', 'other'];
@@ -114,6 +122,7 @@ class EventListComponent extends Component {
 
     return (
       <View style={{width: ScreenWidth, height: ScreenHeight}}>
+        <Spinner visible={this.state.isLoading}/>
         <EventListHeader {...this.props}/>
         <EventListOptionsBar {...this.props} />
         <Drawer navigation={this.props.screenProps.navigation}/>
