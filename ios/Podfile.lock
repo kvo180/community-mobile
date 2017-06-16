@@ -59,13 +59,13 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   React:
-    :path: ../node_modules/react-native
+    :path: "../node_modules/react-native"
   react-native-google-maps:
-    :path: ../
+    :path: "../"
   react-native-maps:
-    :path: ../
+    :path: "../"
   Yoga:
-    :path: ../node_modules/react-native/ReactCommon/yoga/Yoga.podspec
+    :path: "../node_modules/react-native/ReactCommon/yoga/Yoga.podspec"
 
 SPEC CHECKSUMS:
   GoogleMaps: 340a6a0bebd17c2db8abcd3921976c7c53c86cb8
